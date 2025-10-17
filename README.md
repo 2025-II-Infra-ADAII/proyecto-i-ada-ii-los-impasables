@@ -12,7 +12,7 @@
 | Nombre Completo       | Código  | Rol            | Correo Electrónico       |
 |-----------------------|---------|----------------|--------------------------|
 | [Manuel Alexander Serna Jaraba]        | 2259345  | [Líder/Colab.] | [manuel.serna@correounivalle.edu.co]|
-| [Estudiante 2]        | 123457  | [Colaborador]  | [correo2@institucion.edu]|
+| [Edgar Fabian Rueda Colonia]        | 2259606  | [Colaborador]  | [edgar.rueda@correounivalle.edu.co]|
 | [Estudiante 3]        | 123458  | [Colaborador]  | [correo3@institucion.edu]|
 
 ---
