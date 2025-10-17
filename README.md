@@ -1,9 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/GxFB-nwe)
 
-# Asignación: [Nombre de la asignación]
+# Asignación: [Los impasables]
 
-**Fecha:** [DD/MM/AAAA]
-**Curso:** [Nombre del Curso]
+**Fecha:** [20/10/2025]
+**Curso:** [ANÁLISIS Y DISEÑO DE ALGORITMOS II-50]
 
 ---
 
@@ -11,7 +11,7 @@
 
 | Nombre Completo       | Código  | Rol            | Correo Electrónico       |
 |-----------------------|---------|----------------|--------------------------|
-| [Estudiante 1]        | 123456  | [Líder/Colab.] | [correo1@institucion.edu]|
+| [Manuel Alexander Serna Jaraba]        | 2259345  | [Líder/Colab.] | [manuel.serna@correounivalle.edu.co]|
 | [Estudiante 2]        | 123457  | [Colaborador]  | [correo2@institucion.edu]|
 | [Estudiante 3]        | 123458  | [Colaborador]  | [correo3@institucion.edu]|
 
