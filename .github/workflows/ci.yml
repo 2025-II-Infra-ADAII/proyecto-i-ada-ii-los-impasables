@@ -1,0 +1,47 @@
+name: CI Pipeline - Verificación Básica
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: 🧪 Ejecutar Pruebas Básicas
+    runs-on: ubuntu-latest
+    timeout-minutes: 10 
+    
+    steps:
+    - name: Checkout código
+      uses: actions/checkout@v4
+    
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+    
+    - name: Ejecutar pytest básico
+      run: |
+        echo "=== EJECUTANDO PRUEBAS BÁSICAS ==="
+        python -m pytest tests/ -v --tb=short -x
+        
+    - name: Verificar imports esenciales
+      run: |
+        echo "=== VERIFICANDO IMPORTS ==="
+        python -c "
+        try:
+            from src.bruta import roFB
+            from src.dinamica import roPD
+            from src.voraz import roV
+            from src.utils import calcular_costo
+            print('✅ Todos los imports esenciales funcionan')
+        except Exception as e:
+            print(f'❌ Error en imports: {e}')
+            exit(1)
+        "
