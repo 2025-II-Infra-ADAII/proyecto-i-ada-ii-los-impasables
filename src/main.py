@@ -1,10 +1,10 @@
 import sys
 import time
 import os
-from bruta import roFB
-from dinamica import roPD
-from voraz import roV
-from utils import leer_finca, escribir_salida
+from .bruta import roFB
+from .dinamica import roPD
+from .voraz import roV
+from .utils import leer_finca, escribir_salida
 
 def ejecutar_algoritmo(finca, algoritmo: str, archivo_salida: str):
     print(f"\nEjecutando algoritmo {algoritmo}...")

@@ -18,5 +18,4 @@
 ---
 
 ## 📌 Descripción del Taller
-[Breve párrafo explicando el propósito y objetivos del taller (4-6 líneas). Ejemplo:]
-*"Este taller busca analizar [tema principal] mediante [metodología]. Los objetivos incluyen [objetivo 1], [objetivo 2] y [objetivo 3], aplicando conceptos vistos en clase como [concepto relevante]."*
+Este taller busca analizar el problema del riego óptimo en una finca mediante la aplicación de diferentes estrategias algorítmicas: fuerza bruta, voraz y programación dinámica. Los objetivos incluyen comprender cómo cada enfoque resuelve un mismo problema desde distintas perspectivas, evaluar su complejidad computacional y determinar cuál produce soluciones óptimas con mayor eficiencia. Además, se pretende aplicar conceptos vistos en clase como análisis de complejidad, optimalidad y diseño de algoritmos combinatorios.

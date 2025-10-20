@@ -1,4 +1,4 @@
-from src import utils
+from .utils import calcular_costo
 
 from typing import List, Tuple
 
@@ -19,7 +19,7 @@ def roV(finca: Finca):
 
     claves.sort(key=lambda x: x[1], reverse=True)
     perm = [i for i, _ in claves]
-    costo = utils.calcular_costo(finca, perm)
+    costo = calcular_costo(finca, perm)
 
     return perm, costo
 
