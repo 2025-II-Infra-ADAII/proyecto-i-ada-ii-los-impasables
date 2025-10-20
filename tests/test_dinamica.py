@@ -39,7 +39,8 @@ class TestProgramacionDinamica:
             'r_ejemplo_1_D.txt': 'ejemplo_1.txt',
             'r_ejemplo_2_PD.txt': 'ejemplo_2.txt',
             'r_ejemplo_3_PD.txt': 'ejemplo_3.txt',
-            'r_ejemplo_4_PD.txt': 'ejemplo_4.txt'
+            'r_ejemplo_4_PD.txt': 'ejemplo_4.txt',
+            'r_ejemplo_6_PD.txt': 'ejemplo_6.txt'
         }
 
         for archivo_resultado, archivo_entrada in archivos_referencia.items():

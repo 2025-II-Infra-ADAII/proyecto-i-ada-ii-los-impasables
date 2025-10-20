@@ -30,7 +30,12 @@ class TestFuerzaBruta:
 
     def test_archivos_referencia_fb(self):
         archivos_referencia = {
-            'r_ejemplo_1_FB.txt': 'ejemplo_1.txt'
+            'r_ejemplo_1_FB.txt': 'ejemplo_1.txt',
+            'r_ejemplo_6_FB.txt': 'ejemplo_6.txt',
+            'r_ejemplo_7_FB.txt': 'ejemplo_7.txt',
+            'r_ejemplo_8_FB.txt': 'ejemplo_8.txt',
+            'r_ejemplo_9_FB.txt': 'ejemplo_9.txt',
+
         }
 
         for archivo_resultado, archivo_entrada in archivos_referencia.items():
