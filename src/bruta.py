@@ -1,4 +1,4 @@
-from src import utils
+from .utils import calcular_costo
 
 from typing import List, Tuple
 
@@ -27,7 +27,7 @@ def roFB(finca: Finca):
     mejor_costo = float("inf")
 
     for perm in generar_permutaciones(indices):
-        costo = utils.calcular_costo(finca, perm)
+        costo = calcular_costo(finca, perm)
         if costo < mejor_costo:
             mejor_costo = costo
             mejor_perm = perm.copy()
